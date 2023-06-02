@@ -7,7 +7,7 @@ function Price() {
     <AnimatePresence mode='wait'>
 
     <div id="price" className="bg-black pb-20 ok overflow-x-hidden pt-20 font-nav">
-       <div className='absolute h-screen flex w-screen items-center  justify-end'>
+       <div className='absolute h-screen flex w-screen items-center overflow-x-hidden  justify-end'>
 
 <motion.img
    initial={{
@@ -23,7 +23,7 @@ function Price() {
       delay:0.8
     }
   }}
- src='/bruno.png' className='br w-5/12 max-md:w-screen'/>
+ src='/bruno.png' className='br w-5/12 max-md:w-screen overflow-x-hidden'/>
 </div>  
       <div className="flex justify-end  me-6">
         <h1 className="text-5xl max-md:text-3xl p-1 text-white clip-path">Price</h1>

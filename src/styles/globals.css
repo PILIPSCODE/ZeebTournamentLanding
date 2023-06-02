@@ -18,6 +18,7 @@
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .y::-webkit-scrollbar,html::-webkit-scrollbar{
   width: 10px;
