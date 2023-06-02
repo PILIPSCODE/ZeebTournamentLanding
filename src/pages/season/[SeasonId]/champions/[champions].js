@@ -14,8 +14,8 @@ function champions() {
   return (
     <>
       <NavSeason seasonId={SeasonId} />
-      <h1 className="absolute font-nav m-3 text-4xl max-md:text-xl flex"><FontAwesomeIcon width={"40px"} className="mx-2" icon={faRankingStar}/> Champions</h1>
-      <div className="c flex flex-col font-nav justify-center items-center h-screen bg-blue bg-gray-950">
+      <h1 className="absolute font-nav m-3 text-4xl max-md:text-xl flex overflow-hidden"><FontAwesomeIcon width={"40px"} className="mx-2" icon={faRankingStar}/> Champions</h1>
+      <div className="c flex flex-col font-nav justify-center overflow-x-hidden items-center h-screen bg-blue bg-gray-950">
         <div className="mb-4  h-1/4 absolute w-full -translate-y-1/2">
           <motion.div initial={{ x: '170%' }} animate={{ x: '-170%' }}
         transition={{ duration: 8, ease: 'linear', repeat: Infinity }} className={ win2?"grid text-6xl max-md:text-2xl grid-flow-col auto-cols-max" :"hidden"}>

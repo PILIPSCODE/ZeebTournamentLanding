@@ -15,7 +15,7 @@ import {
     const router = useRouter();
     const seasonId = router.query.SeasonId;
     return (
-      <div className="Jadwal bg-gray-950 font-nav">
+      <div className="Jadwal bg-gray-950 font-nav  ">
         <input type="checkbox" id="my-modal-5" className="modal-toggle" />
         <div className="modal">
           <div className="modal-box w-11/12 h-5/6 max-w-5xl">
@@ -24,8 +24,8 @@ import {
                 <FontAwesomeIcon className="w-5" icon={faClose} />
               </label>
             </div>
-            <h1 className="mb-4">Details Battle</h1>
-            <div className="w-11/12  max-md:w-full my-0 mx-auto rounded-md">
+            <h1 className="mb-4 text-white">Details Battle</h1>
+            <div className="w-11/12  max-md:w-full my-0 mx-auto rounded-md text-white">
               <div className="top bg-black rounded-md flex max-md:flex-col justify-around border-b items-center  py-4">
                 <div className="Team1 flex items-center">
                   <img src="/Brosur logo ML.png" className="w-16 " />

@@ -32,7 +32,7 @@ function index() {
 
   const [open,setOpen] = useState(false)
   return (
-    <div className="h-max font-nav bg-blue lg:h-screen bg-gray-950  ">
+    <div className="h-max font-nav bg-blue lg:h-screen bg-gray-950 text-white   ">
       <NavSeason seasonId={SeasonId} />
       <motion.h1
        initial={{
