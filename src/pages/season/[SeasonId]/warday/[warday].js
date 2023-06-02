@@ -148,7 +148,7 @@ import {
           />
         </Link>
     
-        <h1 className="text-4xl flex"><FontAwesomeIcon width={'40px'} className="mx-2" icon={faCalendarDays}/> WarDays</h1>
+        <h1 className="text-4xl flex text-white"><FontAwesomeIcon width={'40px'} className="mx-2 " icon={faCalendarDays}/> WarDays</h1>
         <div className="pt-8 text-white">
           <div className="flex justify-center  text-white ms-6">
             <h1 className="text-xl  p-1 clip-path">Sabtu,20 Mei 2023</h1>
@@ -178,7 +178,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -202,7 +202,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -226,7 +226,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -250,7 +250,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -280,7 +280,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -304,7 +304,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -328,7 +328,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -352,7 +352,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -388,7 +388,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -412,7 +412,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -442,7 +442,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -466,7 +466,7 @@ import {
                     className="hidden max-md:block px-1 rounded-lg"
                   >
                     {" "}
-                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                   </label>
                 </div>
               </motion.div>
@@ -498,7 +498,7 @@ import {
                 </label>
                 <span className="hidden max-md:block px-1 rounded-lg">
                   {" "}
-                  <FontAwesomeIcon icon={faCircleInfo} />
+                  <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                 </span>
               </div>
             </motion.div>
@@ -519,7 +519,7 @@ import {
                 </label>
                 <span className="hidden max-md:block px-1 rounded-lg">
                   {" "}
-                  <FontAwesomeIcon icon={faCircleInfo} />
+                  <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                 </span>
               </div>
             </motion.div>
@@ -540,7 +540,7 @@ import {
                 </label>
                 <span className="hidden max-md:block px-1 rounded-lg">
                   {" "}
-                  <FontAwesomeIcon icon={faCircleInfo} />
+                  <FontAwesomeIcon width={"20px"} icon={faCircleInfo} />
                 </span>
               </div>
             </motion.div>

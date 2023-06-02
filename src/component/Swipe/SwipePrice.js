@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination ,Navigation} from "swiper";
 import { motion,AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
@@ -28,6 +28,7 @@ function SwipePrice() {
         slidesPerView={"auto"}
         centeredSlides={true}
         grabCursor={true}
+        navigation={true}
         breakpoints={{
           450: {
             slidesPerView: 1,
@@ -46,7 +47,7 @@ function SwipePrice() {
             spaceBetween: 20,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination,Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
